@@ -1,3 +1,4 @@
+// Iniciando operador relacional 
 programa
 {
 	
@@ -16,14 +17,15 @@ programa
 		leia (nota3)
 		escreva ("Digite a nota 4: ")
 		leia (nota4)
-
+// Calculo media 
 		media = (nota1+nota2+nota3+nota4)/4
 
 		escreva ("Sua media é: "+ media)
-
 		
-		se (media >=7) {
-		
+//Verificar se media maior ou igual 7
+		se (media >=7) 
+		{
+//Escreva ststus do aluno
 		escreva ("\n" + " Parabéns!! você foi aprovado")	
 		}
 		}
